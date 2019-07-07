@@ -22,7 +22,7 @@ class SayHelloActor extends Actor{
   }
 }
 
-object SayHelloActorDemo {
+object SayHelloActorDemo{
 
   //1. 先创建一个ActorSystem, 专门用于创建Actor
   private val actoryFactory = ActorSystem("actoryFactory")
