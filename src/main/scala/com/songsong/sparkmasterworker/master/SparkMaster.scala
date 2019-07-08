@@ -6,6 +6,7 @@ import com.typesafe.config.ConfigFactory
 
 import scala.collection.mutable
 import scala.concurrent.duration._
+import scala.language.postfixOps
 
 class SparkMaster extends Actor {
   //定义个hm,管理workers

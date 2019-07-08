@@ -5,6 +5,8 @@ import com.songsong.sparkmasterworker.common.{HeartBeat, RegisterWorkerInfo, Reg
 import com.typesafe.config.ConfigFactory
 
 import scala.concurrent.duration._
+import scala.language.postfixOps
+
 
 class SparkWorker(masterHost:String,masterPort:Int,masterName:String) extends Actor{
   //masterProxy是Master的代理/引用ref
